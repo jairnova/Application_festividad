@@ -11,9 +11,10 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:text="TextView"
+        android:gravity="center"
+        android:text="@string/titulo"
         android:textColor="@android:color/background_light"
-        android:textSize="30sp"
+        android:textSize="35sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,64 +41,89 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Id de la festividad"
+                android:hint="@string/id_festividad"
                 android:inputType="numberSigned"
+                android:textSize="20sp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="103dp" />
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/nombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Nombre evento"
+                android:hint="@string/nombre_evento"
                 android:inputType="textPersonName"
+                android:textSize="20sp"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="102dp" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/habitos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Hábitos locales"
-                android:inputType="textPersonName" />
+                android:hint="@string/habitos_locales"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/modales"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Modales"
-                android:inputType="textPersonName" />
+                android:hint="@string/modales"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/fecha_historica"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Fecha histórica"
-                android:inputType="textPersonName" />
+                android:hint="@string/fecha_historica"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/lugar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Lugar"
-                android:inputType="textPersonName" />
+                android:hint="@string/lugar"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editText7"
+                android:id="@+id/fecha_inicio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="Fecha inicio"
-                android:inputType="textPersonName" />
+                android:hint="@string/fecha_inicio"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/fecha_finalizacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/fecha_finalizacion"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/lugar_celebra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/lugar_celebran"
+                android:inputType="textPersonName"
+                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 
