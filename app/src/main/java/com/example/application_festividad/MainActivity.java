@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         String fec_ini = fecha_inicio.getText().toString();
         String fec_fin = fecha_finalizacion.getText().toString();
         String lug_cel = lugar_celebran.getText().toString();
+
+
     }
     public void buscar(View view){
 
