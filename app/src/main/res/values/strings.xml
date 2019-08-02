@@ -12,4 +12,9 @@
     <string name="fecha_finalizacion">Fecha finalización</string>
     <string name="lugar_celebran">Lugar donde se celebran</string>
 
+    <string name="registra">Registrar</string>
+    <string name="buscar">Buscar</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+
 </resources>

@@ -49,7 +49,8 @@
                 android:inputType="numberSigned"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="103dp" />
+                tools:layout_editor_absoluteY="103dp"
+                tools:ignore="Autofill"/>
 
             <EditText
                 android:id="@+id/nombre"
@@ -60,7 +61,8 @@
                 android:inputType="textPersonName"
                 android:textSize="20sp"
                 tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="102dp" />
+                tools:layout_editor_absoluteY="102dp"
+                tools:ignore="Autofill"/>
 
             <EditText
                 android:id="@+id/habitos"
@@ -69,7 +71,8 @@
                 android:ems="10"
                 android:hint="@string/habitos_locales"
                 android:inputType="textPersonName"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="Autofill"/>
 
             <EditText
                 android:id="@+id/modales"
@@ -78,7 +81,8 @@
                 android:ems="10"
                 android:hint="@string/modales"
                 android:inputType="textPersonName"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="Autofill"/>
 
             <EditText
                 android:id="@+id/fecha_historica"
@@ -87,7 +91,8 @@
                 android:ems="10"
                 android:hint="@string/fecha_historica"
                 android:inputType="textPersonName"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="Autofill"/>
 
             <EditText
                 android:id="@+id/lugar"
@@ -96,7 +101,8 @@
                 android:ems="10"
                 android:hint="@string/lugar"
                 android:inputType="textPersonName"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="Autofill"/>
 
             <EditText
                 android:id="@+id/fecha_inicio"
@@ -105,7 +111,8 @@
                 android:ems="10"
                 android:hint="@string/fecha_inicio"
                 android:inputType="textPersonName"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="Autofill"/>
 
             <EditText
                 android:id="@+id/fecha_finalizacion"
@@ -114,7 +121,8 @@
                 android:ems="10"
                 android:hint="@string/fecha_finalizacion"
                 android:inputType="text"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="Autofill"/>
 
             <EditText
                 android:id="@+id/lugar_celebra"
@@ -123,7 +131,44 @@
                 android:ems="10"
                 android:hint="@string/lugar_celebran"
                 android:inputType="textPersonName"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="Autofill"/>
+
+            <Button
+                android:id="@+id/bt_registrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/registra"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="477dp" />
+
+            <Button
+                android:id="@+id/bt_buscar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buscar"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="477dp" />
+
+            <Button
+                android:id="@+id/bt_modificar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/modificar"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="477dp" />
+
+            <Button
+                android:id="@+id/bt_eliminar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eliminar"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="67dp"
+                tools:layout_editor_absoluteY="477dp" />
         </LinearLayout>
     </ScrollView>
 
