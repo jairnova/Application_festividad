@@ -44,6 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="Id de la festividad"
                 android:inputType="numberSigned"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="103dp" />
@@ -53,8 +54,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:hint="Nombre evento"
                 android:inputType="textPersonName"
-                android:text="Name"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="102dp" />
 
@@ -63,40 +64,40 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:hint="Hábitos locales"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/editText4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:hint="Modales"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/editText5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:hint="Fecha histórica"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/editText6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:hint="Lugar"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/editText7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Lugar donde se selebra" />
+                android:hint="Fecha inicio"
+                android:inputType="textPersonName" />
         </LinearLayout>
     </ScrollView>
 
